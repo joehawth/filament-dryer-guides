@@ -1,0 +1,15 @@
+body{font-family:system-ui,sans-serif;max-width:820px;margin:auto;padding:0 1rem;line-height:1.6;color:#222}
+header{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #ddd;padding:1rem 0}
+.brand{font-weight:700;text-decoration:none;color:#0a5}nav a{margin-left:1rem}
+.disclosure{background:#fff8e1;border-left:4px solid #f0b400;padding:.6rem .9rem;font-size:.9rem}
+.note{background:#eef6ff;border-left:4px solid #3a7bd5;padding:.6rem .9rem}
+table{border-collapse:collapse;width:100%;font-size:.92rem}th,td{border:1px solid #ddd;padding:.4rem;text-align:left;vertical-align:top}
+th{background:#f4f4f4}footer{border-top:1px solid #ddd;margin-top:3rem;font-size:.85rem;color:#555}
+a[data-affiliate]{font-weight:600}.sources li{font-size:.88rem}
+/* responsive fixes */
+header{flex-wrap:wrap;gap:.5rem}nav a:first-child{margin-left:0}
+.brand{white-space:nowrap}
+.table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:1rem 0}
+.table-wrap table{min-width:560px}
+h1{line-height:1.25}
+@media (max-width:600px){header{flex-direction:column;align-items:flex-start}nav a{margin:0 1rem 0 0}body{font-size:16px}}
